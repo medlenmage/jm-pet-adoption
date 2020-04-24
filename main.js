@@ -44,7 +44,7 @@ const pets = [
   },
   
   {
-    type: 'parrot',
+    type: 'bird',
     name: 'Polly',
     color: 'Rainbow',
     specialSkill: 'really loves crackers', 
@@ -63,14 +63,12 @@ const petsToAdopt = () => {
   let domString = '';
 
   for (let i = 0; i < pets.length; i++) {
-    domString += '<div class="Adopt">';
-    domString += '<section class="sec1">';
+    domString += '<div class="adopt">';
     domString += `<header class="head"><h3>${pets[i].name}</h3></header>`
     domString += `<img class="petPic" src="${pets[i].image}">`
     domString += `<p class="color">${pets[i].color}</p>`
     domString += `<p class="specialskill">${pets[i].specialSkill}</p>`
     domString += `<footer class="petType">${pets[i].type}</footer>`
-    domString += '</section>'
     domString += '</div>'
   }
   printToDom('#pet-adopt', domString);
