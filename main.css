@@ -1,3 +1,73 @@
+.pet-buttons {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+
+.dog{
+  border-radius: 30%;
+  background-color: orange;
+  width: 3%;
+  box-shadow: 1px 3px;
+}
+
+.cat {
+  border-radius: 30%;
+  background-color: grey;
+  width: 3%;
+  box-shadow: 1px 3px;
+}
+
+.birds {
+  border-radius: 30%;
+  background-color: purple;
+  width: 3%;
+  box-shadow: 1px 3px;
+}
+
+.petPic {
+  width: 85%;
+  height: 20vw;
+  display: block;
+  top: 0;
+  bottom: 0;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.adopt {
+  border: 3px solid blue;
+}
+
+.head{
+  border: 1px solid yellow;
+  background-color: gray;
+}
+
 body {
-  background-color: cyan;
+  background-color: teal;
+}
+.adopt {
+  text-align: center;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+#pet-adopt {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+  position: relative; 
+}
+
+.petType {
+  border: 1px goldenrod solid;
+  position: relative;
+  bottom: 0;
 }
