@@ -6,25 +6,27 @@
   text-align: center;
   justify-content: space-around;
   padding-bottom: 15px;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
 }
 
 .dog{
   border-radius: 30%;
-  background-color: orange;
+  background-color: lightblue;
   width: 3%;
   box-shadow: 1px 3px;
 }
 
 .cat {
   border-radius: 30%;
-  background-color: grey;
+  background-color: lightpink;
   width: 3%;
   box-shadow: 1px 3px;
 }
 
 .birds {
   border-radius: 30%;
-  background-color: purple;
+  background-color: plum;
   width: 3%;
   box-shadow: 1px 3px;
 }
@@ -41,17 +43,18 @@
 }
 
 .adopt {
-  border: 3px solid blue;
+  border: 3px solid #D4FCC3;
 }
 
 .head{
-  border: 1px solid yellow;
-  background-color: gray;
+  border: 1px solid skyblue;
+  background-color: lightgrey;
 }
 
 body {
-  background-color: teal;
+  background-color: #596183;
 }
+
 .adopt {
   text-align: center;
   width: 30%;
@@ -64,10 +67,16 @@ body {
   margin: auto;
   justify-content: space-around;
   position: relative; 
+  font-family: 'Comic Neue', cursive;
 }
 
 .petType {
-  border: 1px goldenrod solid;
+  border: 1px solid skyblue;
   position: relative;
   bottom: 0;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
 }
