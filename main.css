@@ -1,11 +1,5 @@
 .pet-buttons {
-  list-style-type: none;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-around;
-  padding-bottom: 15px;
+  
   font-family: 'Comic Neue', cursive;
   font-weight: bold;
 }

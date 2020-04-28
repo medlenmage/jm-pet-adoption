@@ -75,8 +75,35 @@ const petsToAdopt = () => {
 
 }
 
+const filterPets = (event) => {
+  const buttonId = event.target.id;
+
+  const tempPetCollection = [];
+
+  if (buttonId === all) {
+    petsToAdopt(pets);
+    return
+  }
+
+  for (let i = 0; i < pets.length; i++) {
+    if (pets[i].type === buttonId) {
+      tempPetCollection.push(pets[i]);
+    }
+  }
+  petsToAdopt(tempPetCollection)
+}
+
+
+const clickEvents = () => {
+  document.querySelector('#all').addEventListener('click', filterPets);
+  document.querySelector('#dog').addEventListener('click', filterPets);
+  document.querySelector('#cat').addEventListener('click', filterPets);
+  document.querySelector('#bird').addEventListener('click', filterPets);
+}
+
 const init = () => {
-  petsToAdopt();
+  petsToAdopt(pets);
+  clickEvents();
 }
 
 init();
